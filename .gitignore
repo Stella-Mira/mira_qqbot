@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+
+# 运行时数据（自动应答产生的会话映射与附件）
+data/
+files/
+meta.json

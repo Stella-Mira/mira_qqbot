@@ -1,0 +1,33 @@
+{
+  "name": "mira_qqbot",
+  "version": "1.18.0",
+  "description": "DSH QQ 接管插件（协议层）：OneBot v11 正向 WebSocket（NapCat）连接与指数退避重连，qq_* 工具集；账号池/会话绑定/入站路由/message_id 去重全部交给 mira_account，入站默认 steer 插话、per-peer 可切 queue，含忙通告/超时/stop、断线积压策略（drop/latest_n/replay）、群与白名单策略",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "scripts",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "qq",
+    "onebot",
+    "napcat",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stella-Mira/mira_qqbot.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
